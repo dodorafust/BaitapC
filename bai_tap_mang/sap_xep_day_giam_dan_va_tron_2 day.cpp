@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void nhapDay(int a[], int n) {
-    printf("---Nhap day so---\n");
+    printf("Nhap day so!\n");
     for (int i = 0; i < n; ++i) {
         printf("Nhap so thu %d: ", i + 1);
         scanf("%d", &a[i]);
